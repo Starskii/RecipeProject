@@ -11,6 +11,7 @@ img{
 
 .nav {
     display: flex;
+    justify-content: space-between;
 }
 
 a{
@@ -19,11 +20,13 @@ a{
     background-color: burlywood;
     text-decoration: none;
     color: black;
-    border-radius: 35%;
-    width: 50%;
+    border-radius: 100%;
+    width: 20%;
     align-self: center;
     margin-left: auto;
     margin-right: auto;
+    outline: 1px solid black;
+    padding: 2%;
 }
 
 a:hover{
